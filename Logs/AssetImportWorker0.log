@@ -1,0 +1,1550 @@
+Using pre-set license
+Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16288 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Abdul wahab/Unity Projects/PrintingGameGiT
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50849
+Successfully changed project path to: D:/Abdul wahab/Unity Projects/PrintingGameGiT
+D:/Abdul wahab/Unity Projects/PrintingGameGiT
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2092] Host "[IP] 192.168.15.48 [Port] 0 [Flags] 2 [Guid] 2117650511 [EditorId] 2117650511 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6OLVHRU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2092] Host "[IP] 192.168.15.48 [Port] 0 [Flags] 2 [Guid] 2117650511 [EditorId] 2117650511 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6OLVHRU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 127.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Abdul wahab/Unity Projects/PrintingGameGiT/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   Intel
+    VRAM:     2048 MB
+    Driver:   20.19.15.4835
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014579 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 136.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (60ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005927 seconds.
+Android Extension - Scanning For ADB Devices 777 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Abdul wahab\Unity Projects\PrintingGameGiT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Abdul wahab\Unity Projects\PrintingGameGiT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 113.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.524 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1525ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1229ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (654ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (0.7 MB). Loaded Objects now: 5624.
+Memory consumption went from 203.8 MB to 203.1 MB.
+Total: 6.233800 ms (FindLiveObjects: 0.604800 ms CreateObjectMapping: 0.944900 ms MarkObjects: 4.251500 ms  DeleteObjects: 0.431400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005404 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Abdul wahab\Unity Projects\PrintingGameGiT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Abdul wahab\Unity Projects\PrintingGameGiT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1304ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1024ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5041 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5627.
+Memory consumption went from 193.7 MB to 193.0 MB.
+Total: 5.137600 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.205800 ms MarkObjects: 3.654000 ms  DeleteObjects: 0.776500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5627.
+Memory consumption went from 93.5 MB to 92.8 MB.
+Total: 8.459800 ms (FindLiveObjects: 1.678900 ms CreateObjectMapping: 0.687300 ms MarkObjects: 5.394700 ms  DeleteObjects: 0.697400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1811.623884 seconds.
+  path: Assets/data.csv
+  artifactKey: Guid(0c7157f0b8ee8f24ea7964587f470541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/data.csv using Guid(0c7157f0b8ee8f24ea7964587f470541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6c22ceb37e5434dd802acdacae70163') in 0.214111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/NativeControl/Integration Doc/Integration.pdf
+  artifactKey: Guid(63a29f423521e400c99708d0271e5feb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NativeControl/Integration Doc/Integration.pdf using Guid(63a29f423521e400c99708d0271e5feb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1bf2022793e9151f30cc5a5668ce327') in 0.020990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PrinterPlugin/Prefabs/ItemPrinter.prefab
+  artifactKey: Guid(fea61b03d1fbffa44ab042411c9f0e25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Prefabs/ItemPrinter.prefab using Guid(fea61b03d1fbffa44ab042411c9f0e25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2dc649048fb755876a4122b246ca30d0') in 0.095723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b81db7937275cba9e29069f897798a0') in 0.025026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f736d81e42b9f23de6cb2b6ee0363a79') in 0.055824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CsvData/DirectoryHelper.cs
+  artifactKey: Guid(e282bfaae8d0eef4586c9b860cdf9f63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CsvData/DirectoryHelper.cs using Guid(e282bfaae8d0eef4586c9b860cdf9f63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5f3a85b995a4f79483cb4a2dcbb37d1') in 0.023840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Plugins/NativeFilePicker/README.txt
+  artifactKey: Guid(a0357092d6d35434c8b136abfe2b6260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/NativeFilePicker/README.txt using Guid(a0357092d6d35434c8b136abfe2b6260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ec9ff40b2e3729dab86b4ccff81e8fe') in 0.016539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77ba9a68591b2ff2bbbcec3267b612b4') in 0.027073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/NativeFilePicker/Android/NativeFilePicker.aar
+  artifactKey: Guid(3ed817dcf924721488f9672995f51cb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/NativeFilePicker/Android/NativeFilePicker.aar using Guid(3ed817dcf924721488f9672995f51cb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff240a5c2418c0fb4f6330710e5325ad') in 0.027206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PrinterPlugin/Scripts/AlignType.cs
+  artifactKey: Guid(d122147167711a54da7d5652736d5fcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Scripts/AlignType.cs using Guid(d122147167711a54da7d5652736d5fcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0cc04decc082d39865e2e0e20504b03') in 0.017130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ecb248ddfcf10b7a7ce5210efd98c04') in 0.050211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PrinterPlugin/Scripts/PrintErrorCode.cs
+  artifactKey: Guid(f390a8ed95f3202488c8146186a4faeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Scripts/PrintErrorCode.cs using Guid(f390a8ed95f3202488c8146186a4faeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79f027007be02cbcfb9994565720d849') in 0.017014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Plugins/NativeFilePicker/Editor/NativeFilePickerCustomTypes.cs
+  artifactKey: Guid(f281670325986984c95fde82c23195e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/NativeFilePicker/Editor/NativeFilePickerCustomTypes.cs using Guid(f281670325986984c95fde82c23195e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09204a270c58d86d30cee39841dd29c6') in 0.018604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '565f1cff2b17ecd1f07e261354403ded') in 0.123718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PrinterPlugin/Textures/In2.jpg
+  artifactKey: Guid(869f0902053be134a97b7c2ad348c9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Textures/In2.jpg using Guid(869f0902053be134a97b7c2ad348c9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6294f08e0c563baf895d8908bc65dca9') in 0.048913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0aa8ba122cda68ece4bebfc4794318a0') in 0.020538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/ReporterMessageReceiver.cs
+  artifactKey: Guid(6767a180de870304caa2013b2772dd62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/ReporterMessageReceiver.cs using Guid(6767a180de870304caa2013b2772dd62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd77cb74399f11cd5eb14e91d986fdf7') in 0.047806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/printing.cs
+  artifactKey: Guid(a4301ac551fd79d4fac3d57bc62dd4a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/printing.cs using Guid(a4301ac551fd79d4fac3d57bc62dd4a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9e12f2a1931ad3f261b6e6369f8a201') in 0.040792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Unity-Logs-Viewer/ReporterDocumentation/error.png
+  artifactKey: Guid(ecf03d11d96159d43ad6b7a2b60bd422) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/ReporterDocumentation/error.png using Guid(ecf03d11d96159d43ad6b7a2b60bd422) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf9dd7fc5405b723d5e42f3ce0b45751') in 0.038164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/buildFrom.png
+  artifactKey: Guid(8702be598dd9f504ca33be2afee2ca33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/buildFrom.png using Guid(8702be598dd9f504ca33be2afee2ca33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '060a8aed4198f08e49f03e481ecf60c6') in 0.028028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/clearOnSceneLoaded.png
+  artifactKey: Guid(3a6bc61a8319b1949ab9f1f2db1302b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/clearOnSceneLoaded.png using Guid(3a6bc61a8319b1949ab9f1f2db1302b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7d92d000724bf862c21818221feca0e') in 0.030695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PrinterPlugin/Scripts/SingletonMonoPlugins.cs
+  artifactKey: Guid(768b4cfa04ea146488e5023a247cc69b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Scripts/SingletonMonoPlugins.cs using Guid(768b4cfa04ea146488e5023a247cc69b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a96e7e986e43e0d7d0c9f4b2263883a') in 0.016861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(e7cb4dde9c581be49b706aa4b7dc5fdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(e7cb4dde9c581be49b706aa4b7dc5fdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9da643ffe4b0fd2651805133a484942e') in 0.032375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/back.png
+  artifactKey: Guid(a0632a18e7c665641b94fea66506ab50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/back.png using Guid(a0632a18e7c665641b94fea66506ab50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbbb3a1d6d1150393f9051a283964787') in 0.033143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Unity-Logs-Viewer/ReporterDocumentation/info.png
+  artifactKey: Guid(45bcf5f5e1369544584f5974ae904739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/ReporterDocumentation/info.png using Guid(45bcf5f5e1369544584f5974ae904739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6325ea4d6e07a9b5e3934a7442d577f5') in 0.052121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot21.png
+  artifactKey: Guid(610107702c8806949869cffc95a67b57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot21.png using Guid(610107702c8806949869cffc95a67b57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaa6c48bf6466aa32077352833cb8d99') in 0.054565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '897ccb353177ae19294ff11e0b3d9e50') in 0.022395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8792bf1daea8be1e7aef63bc1194db9a') in 0.020868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PrinterPlugin/Bluetooth/PrinterConnector.prefab
+  artifactKey: Guid(95d6a039c44387c47912f74ff5116111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Bluetooth/PrinterConnector.prefab using Guid(95d6a039c44387c47912f74ff5116111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78e2865e70d4041309096aaa662f16d0') in 0.020455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Unity-Logs-Viewer/ReporterDocumentation/collapse.png
+  artifactKey: Guid(c4b3092b9223cfa4d80efc408b5a4152) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/ReporterDocumentation/collapse.png using Guid(c4b3092b9223cfa4d80efc408b5a4152) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74d879e3c343e40e10ef11e0abfd2b7f') in 0.029247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b2590c80adb9ba782fbe49e7cf9e1fc') in 0.018508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity-Logs-Viewer/ReporterDocumentation/GCMem.png
+  artifactKey: Guid(8d6ce7703b81feb4a8cd4950e8de1675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/ReporterDocumentation/GCMem.png using Guid(8d6ce7703b81feb4a8cd4950e8de1675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6491cd433968ada5518fe645e398eee3') in 0.034154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/reporterScrollerSkin.guiskin
+  artifactKey: Guid(1cc68832d00d3284a9324a4dc05be753) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/reporterScrollerSkin.guiskin using Guid(1cc68832d00d3284a9324a4dc05be753) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '424a7045aadeb22d9f43885ee99fda56') in 0.158760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_thumb.png
+  artifactKey: Guid(ea91678cb5fa4914d9a87d5882e46bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_thumb.png using Guid(ea91678cb5fa4914d9a87d5882e46bf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '222dc51b0b3bbffaf65114537c5588d5') in 0.029158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/log_icon.png
+  artifactKey: Guid(e876b803a4dd5c5488078071d15aa9c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/log_icon.png using Guid(e876b803a4dd5c5488078071d15aa9c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d2ee8f54fc1e3a9bc41fc5555bd87a1') in 0.039599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/collapse.png
+  artifactKey: Guid(4623f326a884a2546ab39078bf7822c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/collapse.png using Guid(4623f326a884a2546ab39078bf7822c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22d12a10e1b64bcdba1c8e1ecdcce561') in 0.029080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PrinterPlugin/Prefabs/ExampleTest.prefab
+  artifactKey: Guid(6756be59cddfa5b47a98281e868b718e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Prefabs/ExampleTest.prefab using Guid(6756be59cddfa5b47a98281e868b718e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d92273845d21eff1b1de6d61f6be457') in 0.033641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d7de5f8c96ffbcab95ab9b390d01519') in 0.014651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73656379aa8964eea83e031ae456179c') in 0.019617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76e5f51290a48dc3cc7958b1ef1d8366') in 0.045613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/MultiKeyDictionary.cs
+  artifactKey: Guid(9d432a5d3d68af34aa3aefa93fc296c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/MultiKeyDictionary.cs using Guid(9d432a5d3d68af34aa3aefa93fc296c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ee27ead5f5555d0fab4eba763cddc91') in 0.019800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/search.png
+  artifactKey: Guid(bfef37b5a26d2264798616d960451329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/search.png using Guid(bfef37b5a26d2264798616d960451329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03a2d0065013e6909358bc5227b9dfc2') in 0.030207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '217a98e93e39f392835173902628418a') in 0.018880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PrinterPlugin/Scripts/Example/IPrintConnector.cs
+  artifactKey: Guid(553052dc32ca99b49a3df52175fe7685) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Scripts/Example/IPrintConnector.cs using Guid(553052dc32ca99b49a3df52175fe7685) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '871045e3320ed6622b7f242c996a4718') in 0.018122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/I2/Localization/Examples/Scenes/I2Localization 2DToolKit.unity
+  artifactKey: Guid(0cd6ab4cb00926c4bb2580688e442b07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Scenes/I2Localization 2DToolKit.unity using Guid(0cd6ab4cb00926c4bb2580688e442b07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e9dabf1147a30037f5aff93b8374de7') in 0.014463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/I2/Localization/Examples/Scenes/I2Localization    UnityUI.unity
+  artifactKey: Guid(1440060592636ac4facf33d40c9df67c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Scenes/I2Localization    UnityUI.unity using Guid(1440060592636ac4facf33d40c9df67c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4bb75dd600eb32e71d5af253257ee41') in 0.016096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/I2/Localization/Examples/Scenes/I2Localization    features LocalizedString.unity
+  artifactKey: Guid(4d999b05c44207e49ad70ed30077eb9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Scenes/I2Localization    features LocalizedString.unity using Guid(4d999b05c44207e49ad70ed30077eb9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09b682037fc99cda58d8551544eb9556') in 0.013182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/I2/Localization/Examples/Scenes/I2Localization SVGImporter.unity
+  artifactKey: Guid(62cdcfbfffab11740933684d102a7cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Scenes/I2Localization SVGImporter.unity using Guid(62cdcfbfffab11740933684d102a7cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1ac7e423e0c9e37ff384a1b51185f70') in 0.018478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/I2/Localization/Scripts/Configurables/SpecializationManager.cs
+  artifactKey: Guid(a72e5d6dba43bf249987cd37521e38bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Configurables/SpecializationManager.cs using Guid(a72e5d6dba43bf249987cd37521e38bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e235eabac5520966fc0ac3c5bb3e942e') in 0.013527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/user.png
+  artifactKey: Guid(2bcdc012e7356f1449ce7d3a31dc458c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/user.png using Guid(2bcdc012e7356f1449ce7d3a31dc458c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f6efd478515ff0ba2ebf8ffff8dd30d') in 0.031673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/I2/Localization/Examples/Common/COMIC.TTF
+  artifactKey: Guid(769d4a2288b99004184236f5fc4469c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Common/COMIC.TTF using Guid(769d4a2288b99004184236f5fc4469c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c9e2f0d372a8a00b10058d5c792d2c3') in 0.037054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PrinterPlugin/Scripts/FormatTextType.cs
+  artifactKey: Guid(240eb0a1986a93d4c9522ea3180eaed3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Scripts/FormatTextType.cs using Guid(240eb0a1986a93d4c9522ea3180eaed3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c12be7b247ba5edf8f206bebf21792b') in 0.012475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '991c90e90b80cc064fd76f6a48b3bbb1') in 0.067020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/graphicCard.png
+  artifactKey: Guid(999d31716332cc04eb4abc9c9270b0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/graphicCard.png using Guid(999d31716332cc04eb4abc9c9270b0ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0093498e0359613978135c1fccae9e9') in 0.033963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PrinterPlugin/Textures/rewewardTransparent.png
+  artifactKey: Guid(0129e6287f377df40bfcfe0909294ba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Textures/rewewardTransparent.png using Guid(0129e6287f377df40bfcfe0909294ba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe548b5993457407aabd38a2973b4f4a') in 0.040796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/I2/Localization/Scripts/LanguageData.cs
+  artifactKey: Guid(cde54ba5e482bec4c88b52e618b81cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/LanguageData.cs using Guid(cde54ba5e482bec4c88b52e618b81cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90e898c9ccde1c26d380f8c2e175330d') in 0.017304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Settings/URP-Balanced-Renderer.asset
+  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c069aa6e41a201bf1188f1c86ba906d') in 0.032480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PrinterPlugin/Scripts/TypePrintImage.cs
+  artifactKey: Guid(9b1df70d8fdd1354cad21be854e1ce5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Scripts/TypePrintImage.cs using Guid(9b1df70d8fdd1354cad21be854e1ce5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28a4f1fe7c979f132e4f9bc9aeff7b45') in 0.020673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CsvData/PrinterManger.cs
+  artifactKey: Guid(44be2c6851b8ef04aafbeeeb451f3fd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CsvData/PrinterManger.cs using Guid(44be2c6851b8ef04aafbeeeb451f3fd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5022c97ef757fb14935c740d5779984') in 0.014091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/data.csv
+  artifactKey: Guid(be32b486da20bf24ab77f78684e28159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/data.csv using Guid(be32b486da20bf24ab77f78684e28159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '149d69fa9dea50a169e8ecf1aff0e8d9') in 0.018840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity-Logs-Viewer/ReporterDocumentation/log.png
+  artifactKey: Guid(679c1c3b742729b45a60849042799a26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/ReporterDocumentation/log.png using Guid(679c1c3b742729b45a60849042799a26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd46228ab649c842317141bde00b650c4') in 0.041833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/I2/Localization/Scripts/Google/TranslationJob_WEB.cs
+  artifactKey: Guid(3b72399bd2ff39042b1320bb943e0a20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Google/TranslationJob_WEB.cs using Guid(3b72399bd2ff39042b1320bb943e0a20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '781b2231a06c31f6b8efb0e2a4ac26eb') in 0.015208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Export_Google.cs
+  artifactKey: Guid(86f9d1c7a0c3815419fc67a9d657ce40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Export_Google.cs using Guid(86f9d1c7a0c3815419fc67a9d657ce40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08391e226f13f7b5918527b7fa15c5d3') in 0.014883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/I2/Localization/Scripts/Manager/LocalizationManager.cs
+  artifactKey: Guid(dd42f89f650a540d9bd641f752368e27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Manager/LocalizationManager.cs using Guid(dd42f89f650a540d9bd641f752368e27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '579797b0ec17bc4af7f771cd88859291') in 0.013691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/I2/Localization/Scripts/Google/SimpleJSON.cs
+  artifactKey: Guid(c6bd173cd8524b04daa3dabce666b456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Google/SimpleJSON.cs using Guid(c6bd173cd8524b04daa3dabce666b456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a4eb2777e18590bb615174dee73eb48') in 0.019607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Languages.cs
+  artifactKey: Guid(3c8d05bf03c50f64eb591ea1499fae82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Languages.cs using Guid(3c8d05bf03c50f64eb591ea1499fae82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '930651c269addb811592f36da6c6a1f9') in 0.014536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/I2/Localization/Scripts/Manager/LocalizationManager_Translation.cs
+  artifactKey: Guid(493a31b7ceba6734491324975bbb928c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Manager/LocalizationManager_Translation.cs using Guid(493a31b7ceba6734491324975bbb928c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'beb3d5924e7a68994c363d0f4e01ad0a') in 0.016185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/I2/Localization/Scripts/Manager/LocalizationManager_Parameters.cs
+  artifactKey: Guid(9bdcae51172bbb8458cf8c42f889c2a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Manager/LocalizationManager_Parameters.cs using Guid(9bdcae51172bbb8458cf8c42f889c2a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e702514fdd4dc50c30f9c39b786f1951') in 0.013188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData.cs
+  artifactKey: Guid(5c2bdd18724779049a63b9b33a36927f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData.cs using Guid(5c2bdd18724779049a63b9b33a36927f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df39fd6a33d2ad0421db1fe78db4cd85') in 0.018172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/I2/Localization/Scripts/Google/GoogleTranslation_Queries.cs
+  artifactKey: Guid(206e4bf72a490864e9bcb59edbdddaed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Google/GoogleTranslation_Queries.cs using Guid(206e4bf72a490864e9bcb59edbdddaed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9068e0d09f03de0179e2172343a2a867') in 0.018430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/PostProcessBuild_ANDROID.cs
+  artifactKey: Guid(4c8d936531867014da228239d095833c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/PostProcessBuild_ANDROID.cs using Guid(4c8d936531867014da228239d095833c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a8a87aac8fc7625b08b20ab7edf0246') in 0.017947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/I2/Localization/Scripts/Google/TranslationJob_Main.cs
+  artifactKey: Guid(b6aed7ae05f9c254596b3728c5811bdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Google/TranslationJob_Main.cs using Guid(b6aed7ae05f9c254596b3728c5811bdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa19c4e05ae90363851769630c799f27') in 0.017197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/UpgradeManager.cs
+  artifactKey: Guid(6e61480936111c54883dc051751e0a5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/UpgradeManager.cs using Guid(6e61480936111c54883dc051751e0a5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3bd8c263de06a26bc023c73fffc0cba') in 0.013714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/I2/Localization/Scripts/Manager/LocalizationManager_RTL.cs
+  artifactKey: Guid(d33b5082085040d44ab79b83d25bffee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Manager/LocalizationManager_RTL.cs using Guid(d33b5082085040d44ab79b83d25bffee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fd3841262131bee9ccabddbac3dffc6') in 0.012305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/timer_1.png
+  artifactKey: Guid(782e03669fa4a614e89ef56252134250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/timer_1.png using Guid(782e03669fa4a614e89ef56252134250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13a12fd13068d236afc52400fe1d3549') in 0.024529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8344a9083d23af42b139fbcc1bb0b977') in 0.047489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e17af06650177ff7d22e3a2351859a6') in 0.067130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Misc.cs
+  artifactKey: Guid(eaa919dd06da3464082b8f16759a5b16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Misc.cs using Guid(eaa919dd06da3464082b8f16759a5b16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be26826360c3f7fe93b364a1deedd627') in 0.016554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/odd_log.png
+  artifactKey: Guid(8ffbb44a2c3adae45913474e4fd487f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/odd_log.png using Guid(8ffbb44a2c3adae45913474e4fd487f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b18bf961b004c54048e7bab26620a9e7') in 0.023477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/copy.png
+  artifactKey: Guid(7f36d71624c630046b855909c497be17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/copy.png using Guid(7f36d71624c630046b855909c497be17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77c98c9af9503ad82e32693d837e2211') in 0.029272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_Child.cs
+  artifactKey: Guid(61a67a81d07fe85429a253a86ebac910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_Child.cs using Guid(61a67a81d07fe85429a253a86ebac910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ca742b83b461c213af41d079a5209ce') in 0.014555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/I2/Localization/Scripts/Utils/I2Utils.cs
+  artifactKey: Guid(7a974f5f5b8a8c94abaf68d987ea0662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Utils/I2Utils.cs using Guid(7a974f5f5b8a8c94abaf68d987ea0662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19a887873ead1676d97ae4847c1bc471') in 0.020092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_2DToolKit_Label.cs
+  artifactKey: Guid(f7658f1522689aa4b93bc276acf537b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_2DToolKit_Label.cs using Guid(f7658f1522689aa4b93bc276acf537b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '659de7fdc0c636940665c4c8f8123294') in 0.014681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_TextMeshPro_Label.cs
+  artifactKey: Guid(d96a6c3ea7d28744aacc367115a71af5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_TextMeshPro_Label.cs using Guid(d96a6c3ea7d28744aacc367115a71af5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a48097677968d8081edf9ca1dfbf5060') in 0.018140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/I2/Localization/Scripts/Utils/CoroutineManager.cs
+  artifactKey: Guid(20c75ea9a203e3d40aafe9b20abbd228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Utils/CoroutineManager.cs using Guid(20c75ea9a203e3d40aafe9b20abbd228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc63837e490cced6472ec50aa843864f') in 0.013276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_TextMeshPro_UGUI.cs
+  artifactKey: Guid(481ab606793a67349be805c13febeba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_TextMeshPro_UGUI.cs using Guid(481ab606793a67349be805c13febeba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89ee737bb06731251ae8d8a044e2501c') in 0.016561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityUI_RawImage.cs
+  artifactKey: Guid(a58a0cb6f0764ca42b2877aa2c6fa0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityUI_RawImage.cs using Guid(a58a0cb6f0764ca42b2877aa2c6fa0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f26db910f73ddad9d0251b6f5eed8e31') in 0.018031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/I2/Localization/Scripts/Utils/RegisterCallback_AllowSyncFromGoogle.cs
+  artifactKey: Guid(893c292e5fa149cf965cc68e2d471396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Utils/RegisterCallback_AllowSyncFromGoogle.cs using Guid(893c292e5fa149cf965cc68e2d471396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6ad5f41856dff8f899f3e3621b8a97e') in 0.016540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/I2/Localization/Examples/Common/Meshes/Mesh_ES.prefab
+  artifactKey: Guid(a5c71238940815045b04992831c96352) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Common/Meshes/Mesh_ES.prefab using Guid(a5c71238940815045b04992831c96352) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35b9ffa01f051ec42004190b99de2d4f') in 0.030631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_Prefab.cs
+  artifactKey: Guid(bd8b481d182cbcd4293524eb92ee520c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_Prefab.cs using Guid(bd8b481d182cbcd4293524eb92ee520c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a61796ba92c941057c07dafb774ccea7') in 0.014064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/I2/Localization/Scripts/Utils/CustomLocalizeCallback.cs
+  artifactKey: Guid(24da539b4435ced4da00f418327a772c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Utils/CustomLocalizeCallback.cs using Guid(24da539b4435ced4da00f418327a772c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66460b099d220181371b7b039ee95a6c') in 0.051068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_SpriteRenderer.cs
+  artifactKey: Guid(3b29d7ab09a96634a9f704e6a1f21193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_SpriteRenderer.cs using Guid(3b29d7ab09a96634a9f704e6a1f21193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b35f5045675e6d850939ce80c293bcac') in 0.013274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/I2/Localization/Scripts/Utils/LocalizedString.cs
+  artifactKey: Guid(0bf401b4b1a2c364ba3795d47b95835f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Utils/LocalizedString.cs using Guid(0bf401b4b1a2c364ba3795d47b95835f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21796dd849c0c7840af6a6bb66b46967') in 0.019443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/I2/Localization/Scripts/Utils/LocalizationParamsManager.cs
+  artifactKey: Guid(c9586cfd190ca384a8dd72aa92c86152) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Utils/LocalizationParamsManager.cs using Guid(c9586cfd190ca384a8dd72aa92c86152) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27e4423acad3fd4910246e00ab22f7fe') in 0.016635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_2DToolKit_Sprite.cs
+  artifactKey: Guid(53d5ed87a66514e439dddd19568adedd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_2DToolKit_Sprite.cs using Guid(53d5ed87a66514e439dddd19568adedd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c957572f43709457069e2e03458961d5') in 0.017985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/I2/Localization/Scripts/Utils/AutoChangeCultureInfo.cs
+  artifactKey: Guid(9d7ad57256fd47940aba8035315bd2ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Utils/AutoChangeCultureInfo.cs using Guid(9d7ad57256fd47940aba8035315bd2ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef1b6887b7b46feeb6fbd1c018a11135') in 0.015244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/I2/Localization/Scripts/Utils/SetLanguageDropdown.cs
+  artifactKey: Guid(33897b093844df84a8e8a0258a1fb0dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Utils/SetLanguageDropdown.cs using Guid(33897b093844df84a8e8a0258a1fb0dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd935a40d561fb47211e3bf666b2c00e7') in 0.017248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_MeshRenderer.cs
+  artifactKey: Guid(b4679336707a2b54caa10d99561be751) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_MeshRenderer.cs using Guid(b4679336707a2b54caa10d99561be751) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b61a77befa35f09ae46e7887f79e791') in 0.015875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/I2/Localization/Examples/Common/Audio/frances.wav
+  artifactKey: Guid(e68e601305e6218408e8208f956472c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Common/Audio/frances.wav using Guid(e68e601305e6218408e8208f956472c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0628fa01b787d82cf952a129fbd4d74d') in 0.117694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Inspectors/LocalizationEditor.cs
+  artifactKey: Guid(90c932abd0dc445448366dfe101408ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Inspectors/LocalizationEditor.cs using Guid(90c932abd0dc445448366dfe101408ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43c991aa19eaade174b5e58d2cb5f53e') in 0.016660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Localization/LocalizationEditor_Tools_Categorize.cs
+  artifactKey: Guid(690f28955e250544a9bfaf741e4cced7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Localization/LocalizationEditor_Tools_Categorize.cs using Guid(690f28955e250544a9bfaf741e4cced7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '175c421a9bf43892c305d9d14594c546') in 0.016414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Localization/LocalizationEditor.cs
+  artifactKey: Guid(ffd53aaaf6936407d8b087583b0626e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Localization/LocalizationEditor.cs using Guid(ffd53aaaf6936407d8b087583b0626e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbf7d5b0bd91be6a286554c0cbe7a07c') in 0.014406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Localization/LocalizationEditor_Tools_Script.cs
+  artifactKey: Guid(634a9cc818031dd4c8ddf451d36abe00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Localization/LocalizationEditor_Tools_Script.cs using Guid(634a9cc818031dd4c8ddf451d36abe00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04053dae9cee12200c03eecd8ed4fe09') in 0.014781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Inspectors/LocalizeInspector.cs
+  artifactKey: Guid(675119279b2a30245801272112cfbe38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Inspectors/LocalizeInspector.cs using Guid(675119279b2a30245801272112cfbe38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b6b5f3b4ff5e853490d2b49cafd543b') in 0.017566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/I2/Localization/Examples/Common/Scripts/Example_LocalizedString.cs
+  artifactKey: Guid(60b32d3b3e0ad124aa1fed397539a9ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Common/Scripts/Example_LocalizedString.cs using Guid(60b32d3b3e0ad124aa1fed397539a9ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcd33f1b03328f3a6a2b370d8d21b5bf') in 0.014224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Inspectors/LocalizeDropdownInspector.cs
+  artifactKey: Guid(65bbef08e6e42d24d9834945c3769202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Inspectors/LocalizeDropdownInspector.cs using Guid(65bbef08e6e42d24d9834945c3769202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b6a581f3a857f63e301cb04ba7a50cd') in 0.014127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Inspectors/SetLanguageInspector.cs
+  artifactKey: Guid(7af58b4da44670e47a509c59754e8c2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Inspectors/SetLanguageInspector.cs using Guid(7af58b4da44670e47a509c59754e8c2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '006bdfcddf0b911db6c4860da84c5825') in 0.015649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll
+  artifactKey: Guid(6bcca352fcef3034fb01650308bf47c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll using Guid(6bcca352fcef3034fb01650308bf47c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '054398fe3aea42273aeef901a32665cf') in 0.026315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/I2/Localization/Examples/Common/Scripts/ToggleLanguage.cs
+  artifactKey: Guid(55bf2bd9f27244a03a94e8e907db26cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Common/Scripts/ToggleLanguage.cs using Guid(55bf2bd9f27244a03a94e8e907db26cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4929d83c5a4ef70c7fc98fd03ea938af') in 0.015151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Unity XCode/Xcode.txt
+  artifactKey: Guid(8f2eff1a75746804db6c0240420ebed9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Unity XCode/Xcode.txt using Guid(8f2eff1a75746804db6c0240420ebed9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29d8574e85db202da5dd6c34b2e9b2a0') in 0.017364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Inspectors/ResourceManagerInspector.cs
+  artifactKey: Guid(ba2fdf8face79dd4f9e1ed80448db843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Inspectors/ResourceManagerInspector.cs using Guid(ba2fdf8face79dd4f9e1ed80448db843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b07fdbffe1e8470e9e13a22b1acb19c0') in 0.012272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Inspectors/LanguageSourceInspector.cs
+  artifactKey: Guid(a441ed994a43a0a4a9d33be67a8d3f15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Inspectors/LanguageSourceInspector.cs using Guid(a441ed994a43a0a4a9d33be67a8d3f15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69429d3725de85c10c7eb42aad2c8dbb') in 0.017760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/I2/Localization/Examples/Common/Scripts/RegisterBundlesManager.cs
+  artifactKey: Guid(63c602586209c154886c6df1d347f847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Common/Scripts/RegisterBundlesManager.cs using Guid(63c602586209c154886c6df1d347f847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e2ce6d32ee5933e400953f558b6293a') in 0.012550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Localization/LocalizationEditor_Tools_NoLocalized.cs
+  artifactKey: Guid(18d48e525beac1e4baff73e509fc246d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Localization/LocalizationEditor_Tools_NoLocalized.cs using Guid(18d48e525beac1e4baff73e509fc246d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34665cc23f9a608a49a1a5d819236c67') in 0.017305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/even_log.png
+  artifactKey: Guid(d27aad55b568c6544b0b95a95da44bc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/even_log.png using Guid(d27aad55b568c6544b0b95a95da44bc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19a551c7b2a0fcd7447881bffd1d2fa9') in 0.029088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/I2/Localization/Examples/Scenes/I2Localization    features Plurals.unity
+  artifactKey: Guid(5fdd7b713bef81f418e2ff121bc4745d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Scenes/I2Localization    features Plurals.unity using Guid(5fdd7b713bef81f418e2ff121bc4745d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '859559c661f5c9356be39173410fd8de') in 0.013239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceAsset.cs
+  artifactKey: Guid(2f0b0c553be8edd4682e9180fdd13e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceAsset.cs using Guid(2f0b0c553be8edd4682e9180fdd13e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '169d106ba239363af84d8b156814c443') in 0.015664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/I2/Localization/Examples/Scenes/I2Localization    Standard Components.unity
+  artifactKey: Guid(d296d750610b0bc4a90725b0183151f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Scenes/I2Localization    Standard Components.unity using Guid(d296d750610b0bc4a90725b0183151f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '300058dfdd5f455851af83fe7b35d375') in 0.016477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PrinterPlugin/Bluetooth/Document.txt
+  artifactKey: Guid(fd155230e26e4b9419b169f1a6d266f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Bluetooth/Document.txt using Guid(fd155230e26e4b9419b169f1a6d266f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0005477dc4a18188ab8671a40c7fab79') in 0.016035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68eef6343b73723fabf0ad09911ad971') in 0.027501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/I2/Localization/Examples/Resources/References/Prefabs/Mesh_FR.prefab
+  artifactKey: Guid(f9bccdf9387c20f4ebb647274ab6d1fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Resources/References/Prefabs/Mesh_FR.prefab using Guid(f9bccdf9387c20f4ebb647274ab6d1fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e651e825336e649dd125850fdd577c88') in 0.026477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/I2/Localization/Examples/Resources/References/Sprites/L_FR.png
+  artifactKey: Guid(bd755c6631de9b64f85257f46f8719f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Resources/References/Sprites/L_FR.png using Guid(bd755c6631de9b64f85257f46f8719f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '538c143f20d62a7fd764038c03d500b3') in 0.042930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/I2/Localization/Examples/Resources/References/Sprites/L_EN.png
+  artifactKey: Guid(4628dae081db40f4fb93c1f305ff2497) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Resources/References/Sprites/L_EN.png using Guid(4628dae081db40f4fb93c1f305ff2497) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81f0f2b1ce1fc766983aa575ad776f31') in 0.034919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/I2/Localization/Examples/Resources/References/Textures/L_EN.png
+  artifactKey: Guid(8f7115ef5a3ecfd42935c3ff54434ae8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Resources/References/Textures/L_EN.png using Guid(8f7115ef5a3ecfd42935c3ff54434ae8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f1e5ab11543d77b0955c626cb5aee31') in 0.030732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/bar.png
+  artifactKey: Guid(8128d4f4c0193e34586f9631ef7d4787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/bar.png using Guid(8128d4f4c0193e34586f9631ef7d4787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f21a92aa3d1845dc5fef3fcff89d696') in 0.023977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity-Logs-Viewer/ReporterDocumentation/clear.png
+  artifactKey: Guid(a0fcf46a2dc6a1b4b86e3f9927780fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/ReporterDocumentation/clear.png using Guid(a0fcf46a2dc6a1b4b86e3f9927780fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbe444e1ba596df7a4cafeb723a96d49') in 0.028925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/I2/Localization/Scripts/Google/GoogleLanguages.cs
+  artifactKey: Guid(26e29b3e77176de4cbb64a3ec85beee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Google/GoogleLanguages.cs using Guid(26e29b3e77176de4cbb64a3ec85beee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cee83a277ca01ba3122ca261021b364') in 0.021550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Test/test1.unity
+  artifactKey: Guid(1cf4e2e23b6e31d498242c9db1608ccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Test/test1.unity using Guid(1cf4e2e23b6e31d498242c9db1608ccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0496377cfc014e213edf1e6eadf30cce') in 0.011922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/I2/Localization/Scripts/Google/TranslationJob_GET.cs
+  artifactKey: Guid(13df42f7287eccc4399bc757d577030e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Google/TranslationJob_GET.cs using Guid(13df42f7287eccc4399bc757d577030e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71dd1a261fb68615d0af97dca5f53352') in 0.018554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/I2/Localization/Scripts/LocalizationReader.cs
+  artifactKey: Guid(6ec1933af6b4d6947ba69b9bda4260d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/LocalizationReader.cs using Guid(6ec1933af6b4d6947ba69b9bda4260d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ff29cca9762cc1fd456cb54b3a32e25') in 0.013844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/warning_icon.png
+  artifactKey: Guid(1066be8e7b994b94c8a182b8dbe30705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/warning_icon.png using Guid(1066be8e7b994b94c8a182b8dbe30705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22727963f1faca867d804c42efceee12') in 0.043977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/I2/Localization/Examples/Common/Scripts/NGUI_LanguagePopup.cs
+  artifactKey: Guid(36d92fc19cfafc84d8014a1589d64233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Common/Scripts/NGUI_LanguagePopup.cs using Guid(36d92fc19cfafc84d8014a1589d64233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18b3e78c850cbab851927e69346860e0') in 0.019060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/I2/Localization/Scripts/Google/GoogleTranslation.cs
+  artifactKey: Guid(cc4d0073f9e452047bd31b01de2bbd82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Google/GoogleTranslation.cs using Guid(cc4d0073f9e452047bd31b01de2bbd82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4cc2ed91782c2a8b489605948e94dd8') in 0.014323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/ComputerIcon.png
+  artifactKey: Guid(e9011b1dc9256ad4d9c19a31c595f95f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/ComputerIcon.png using Guid(e9011b1dc9256ad4d9c19a31c595f95f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0257a734ceed32e989755e77907d82c0') in 0.028617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/NativeFilePicker/iOS/FPResultCallbackiOS.cs
+  artifactKey: Guid(b11d2999e16ca864f8974988d73c2017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/NativeFilePicker/iOS/FPResultCallbackiOS.cs using Guid(b11d2999e16ca864f8974988d73c2017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a026f6e71e7b694717b176a554137307') in 0.014519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_VideoPlayer.cs
+  artifactKey: Guid(5fcaa99c1874460eb953851cbf4bfad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_VideoPlayer.cs using Guid(5fcaa99c1874460eb953851cbf4bfad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '884d2ef866273e84e0a7842648c5f27d') in 0.014345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44eba8d76d733bef3f137a8700c76beb') in 0.027006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/error_icon.png
+  artifactKey: Guid(7640ebf8b3a92124d821d3b4b8b3fd7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/error_icon.png using Guid(7640ebf8b3a92124d821d3b4b8b3fd7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a2b634ad95fa71574ef76963ff6c6c3') in 0.028101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c74b59ed7e505ff2673003f7062fc66') in 0.014591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NativeControl/Integration Doc/Android Manifest - Location service.xml
+  artifactKey: Guid(fa9158ea3a62847b79fc19b5d2e4d9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NativeControl/Integration Doc/Android Manifest - Location service.xml using Guid(fa9158ea3a62847b79fc19b5d2e4d9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b449bf6210fe259ea21325a16dafe11f') in 0.014808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/I2/Localization/Examples/Scenes/I2Localization NGUI.unity
+  artifactKey: Guid(24242c1420a4d3543b31f00e0366e1ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Scenes/I2Localization NGUI.unity using Guid(24242c1420a4d3543b31f00e0366e1ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de73c0cb49e8a5ff460159e59e6597aa') in 0.014109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/I2/Localization/Examples/Scenes/I2Localization    features Realtime Translation.unity
+  artifactKey: Guid(c79e8762cdeadd24ab3a1e27a98874c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Scenes/I2Localization    features Realtime Translation.unity using Guid(c79e8762cdeadd24ab3a1e27a98874c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3580efee449b76e6fa92498ef48a50bc') in 0.013683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NativeControl/Integration Doc/Documentation.pdf
+  artifactKey: Guid(c84808dc7a4a84fffbdd886e74f54287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NativeControl/Integration Doc/Documentation.pdf using Guid(c84808dc7a4a84fffbdd886e74f54287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15f16506fc140d6562af7b41f4307109') in 0.015255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CsvData/PrinterPlugin.cs
+  artifactKey: Guid(afde4b97cf55cb44e947f5d85687ae70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CsvData/PrinterPlugin.cs using Guid(afde4b97cf55cb44e947f5d85687ae70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '195b768d4613c29d5d92974dcf3d0768') in 0.013975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PrinterPlugin/Bluetooth/Example/PrintCSV.unity
+  artifactKey: Guid(d01277e55ef151a49809dfcb98d021db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Bluetooth/Example/PrintCSV.unity using Guid(d01277e55ef151a49809dfcb98d021db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fee07ef98434a2d2b91c7f0033ebab0') in 0.020357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/I2/Localization/Examples/Resources/ARIAL SDF.asset
+  artifactKey: Guid(1e3c311fc27694a419baca451fc975d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Examples/Resources/ARIAL SDF.asset using Guid(1e3c311fc27694a419baca451fc975d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f205ca894f67d85521ceb794f736c6af') in 0.056815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '776a61b4098080c584c89e9d7e6789a8') in 0.035542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/I2/Localization/Scripts/Editor/Localization/LocalizationEditor_Terms_Description.cs
+  artifactKey: Guid(3efc8937ee2fcab49a6b6c1c9a1ed051) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Editor/Localization/LocalizationEditor_Terms_Description.cs using Guid(3efc8937ee2fcab49a6b6c1c9a1ed051) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46fda7673277e2516cf5672d502e6886') in 0.019281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Editor/ReporterEditor.cs
+  artifactKey: Guid(639e2d9db58377f4997f7678b50e7e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Editor/ReporterEditor.cs using Guid(639e2d9db58377f4997f7678b50e7e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e17644931dc37975ead83c84651c547') in 0.015350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_back.png
+  artifactKey: Guid(f44f16dd98d65e74e8001cf19cec1868) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_back.png using Guid(f44f16dd98d65e74e8001cf19cec1868) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2055f9b06b61d15997557026e9c68604') in 0.028120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PrinterPlugin/Bluetooth/Example/ExampleTest.unity
+  artifactKey: Guid(4d4b261dc1785a241a90685eb5443795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrinterPlugin/Bluetooth/Example/ExampleTest.unity using Guid(4d4b261dc1785a241a90685eb5443795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09994e3b9a0b9cd19c6a7fb91bad32bf') in 0.015612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_AudioSource.cs
+  artifactKey: Guid(007f2c3f7b0e4a048ae89d65dcd38729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_AudioSource.cs using Guid(007f2c3f7b0e4a048ae89d65dcd38729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3299c685fadf7c684222251c1a893b5') in 0.024873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/I2/Localization/Scripts/Targets/ILocalizeTargetDesc.cs
+  artifactKey: Guid(65c3e6b4b14772c4e9fb35235497819b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/I2/Localization/Scripts/Targets/ILocalizeTargetDesc.cs using Guid(65c3e6b4b14772c4e9fb35235497819b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6028e83f8fff31a5dea8754b5628bc72') in 0.016876 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (0.7 MB). Loaded Objects now: 5634.
+Memory consumption went from 95.3 MB to 94.6 MB.
+Total: 9.158300 ms (FindLiveObjects: 0.716200 ms CreateObjectMapping: 0.621900 ms MarkObjects: 7.194400 ms  DeleteObjects: 0.624600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5634.
+Memory consumption went from 93.3 MB to 92.6 MB.
+Total: 5.899200 ms (FindLiveObjects: 0.457600 ms CreateObjectMapping: 0.452000 ms MarkObjects: 4.620000 ms  DeleteObjects: 0.368700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5634.
+Memory consumption went from 93.3 MB to 92.6 MB.
+Total: 4.676300 ms (FindLiveObjects: 0.431700 ms CreateObjectMapping: 0.200300 ms MarkObjects: 3.570100 ms  DeleteObjects: 0.473100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005946 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Abdul wahab\Unity Projects\PrintingGameGiT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Abdul wahab\Unity Projects\PrintingGameGiT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.391 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1392ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1080ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (517ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5041 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5637.
+Memory consumption went from 192.5 MB to 191.8 MB.
+Total: 4.075200 ms (FindLiveObjects: 0.425700 ms CreateObjectMapping: 0.198900 ms MarkObjects: 3.103300 ms  DeleteObjects: 0.346200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5637.
+Memory consumption went from 94.1 MB to 93.4 MB.
+Total: 3.884500 ms (FindLiveObjects: 0.400800 ms CreateObjectMapping: 0.185800 ms MarkObjects: 2.954400 ms  DeleteObjects: 0.342800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5637.
+Memory consumption went from 94.1 MB to 93.4 MB.
+Total: 6.980200 ms (FindLiveObjects: 0.829700 ms CreateObjectMapping: 0.593100 ms MarkObjects: 4.971200 ms  DeleteObjects: 0.585000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006008 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Abdul wahab\Unity Projects\PrintingGameGiT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Abdul wahab\Unity Projects\PrintingGameGiT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1335ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1027ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (486ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5041 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5640.
+Memory consumption went from 194.6 MB to 193.9 MB.
+Total: 3.677800 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.190100 ms MarkObjects: 2.715600 ms  DeleteObjects: 0.362600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5640.
+Memory consumption went from 94.3 MB to 93.6 MB.
+Total: 5.728200 ms (FindLiveObjects: 0.763000 ms CreateObjectMapping: 0.663200 ms MarkObjects: 3.704100 ms  DeleteObjects: 0.596300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
