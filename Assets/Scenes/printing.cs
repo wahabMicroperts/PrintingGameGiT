@@ -66,7 +66,7 @@ public class printing : MonoBehaviour
             File.WriteAllText(filePath, csvContent);
             Debug.Log("CSV file saved to internal storage: " + filePath);
 
-            //   Application.OpenURL(filePath);
+              Application.OpenURL(filePath);
            // NativeControl.Instance().SaveCSVFileToGallery(csvContent,fileName, SaveImageLocation);
 
 
