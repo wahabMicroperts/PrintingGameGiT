@@ -11,7 +11,7 @@ using UnityEngine.UI;
 public class printing : MonoBehaviour
 {
 
-    private string fileName = "data.csv"; // Name of the CSV file
+    private string fileName = "data.XLS"; // Name of the CSV file
     public TMP_InputField Name;
     public TMP_InputField OPertator;
     public TMP_InputField MachineId;
@@ -26,9 +26,6 @@ public class printing : MonoBehaviour
     private void Start()
     {
         csvContent = null;
-
-        // GenerateCSV();
-
     }
 
     [ContextMenu("GenrateFile")]
@@ -59,15 +56,32 @@ public class printing : MonoBehaviour
         csvContent += string.Join(",", row1) + "\n";
         csvContent += dateTime + "\n";
 
-        filePath = Path.Combine(Application.persistentDataPath, fileName);
+       // filePath = Path.Combine(Application.persistentDataPath, fileName);
 
         try
         {
-            File.WriteAllText(filePath, csvContent);
-            Debug.Log("CSV file saved to internal storage: " + filePath);
+            //File.WriteAllText(filePath, csvContent);
+            //Debug.Log("CSV file saved to internal storage: " + filePath);
 
-              Application.OpenURL(filePath);
-           // NativeControl.Instance().SaveCSVFileToGallery(csvContent,fileName, SaveImageLocation);
+           // Application.OpenURL(filePath);
+            //////////-----------------------------Testing For write and get--------------------
+
+            string filePaths = Path.Combine(Application.temporaryCachePath, fileName);
+            File.WriteAllText(filePaths, csvContent);
+
+            // Export the file
+            NativeFilePicker.Permission permission = NativeFilePicker.ExportFile(filePaths, (success) => Debug.Log("File exported: " + success));
+
+            /////---------------------------Pick File----------------
+            NativeFilePicker.Permission permissions = NativeFilePicker.PickFile((path) =>
+            {
+                if (path == null)
+                    Debug.Log("Operation cancelled");
+                else
+                    Debug.Log("Picked file: " + path);
+            }, new string[] { fileName });
+
+            Debug.Log("Permission result: " + permission);
 
 
 
