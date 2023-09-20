@@ -234,7 +234,7 @@ public static class NativeFilePicker
 					if( allowedFileTypes[i] == "image/*" )
 					{
 						editorFilters[i * 2] = "Image files";
-						editorFilters[i * 2 + 1] = "png,jpg,jpeg";
+						editorFilters[i * 2 + 1] = "png,jpg,csv";
 					}
 					else if( allowedFileTypes[i] == "video/*" )
 					{

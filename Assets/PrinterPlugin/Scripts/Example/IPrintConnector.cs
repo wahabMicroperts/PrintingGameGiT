@@ -154,7 +154,7 @@ public class IPrintConnector<T> : MonoBehaviour where T : MonoBehaviour
         jo.Call("PrintQRcode", content, size);
 #endif
     }
-
+  
     public virtual void PrintImagePrinter(byte[] data)
     {
 #if !UNITY_EDITOR && UNITY_ANDROID
@@ -227,6 +227,7 @@ public class IPrintConnector<T> : MonoBehaviour where T : MonoBehaviour
 #if !UNITY_EDITOR && UNITY_ANDROID
         jo.Call("SetFormatText", type);
 #endif
+       
     }
 
     public virtual void CutPages()
@@ -243,7 +244,7 @@ public class IPrintConnector<T> : MonoBehaviour where T : MonoBehaviour
         jo.Call("SetAlign", alignInt);
 #endif
     }
-
+   
     public virtual bool IsPrintable => isConnected;
     #endregion
 }

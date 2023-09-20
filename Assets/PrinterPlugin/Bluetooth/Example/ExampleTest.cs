@@ -44,8 +44,8 @@ public class ExampleTest : ExampleBridge
         if (PrinterPrepare)
         {
             PrinterConnector.SetAlign(AlignType.CENTER);
-         //   PrintText(inputText.text);
-            PrintText(PrintingCSV.csvContent);
+            PrintText(inputText.text);
+           // PrintText(PrintingCSV.csvContent);
             PrinterConnector.AddFeed();
         }
     }
@@ -84,7 +84,7 @@ public class ExampleTest : ExampleBridge
         if (PrinterPrepare)
         {
             base.PrintImage(imageData);
-            PrinterConnector.SetAlign(AlignType.CENTER);
+            PrinterConnector.SetAlign(AlignType.LEFT);
             PrinterConnector.PrintImage(imageData);
             PrinterConnector.AddFeed(FeedType.LONG);
             PrinterConnector.AddFeed(FeedType.LONG);

@@ -11,7 +11,7 @@ using UnityEngine.UI;
 public class printing : MonoBehaviour
 {
 
-    private string fileName = "data.XLS"; // Name of the CSV file
+    private string fileName = "data.csv"; // Name of the CSV file
     public TMP_InputField Name;
     public TMP_InputField OPertator;
     public TMP_InputField MachineId;
