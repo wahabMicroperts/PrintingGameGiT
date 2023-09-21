@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Android;
@@ -49,21 +50,46 @@ public class printing : MonoBehaviour
         string[] headers = { "Name", "Operator", "Operator2", "MachineId", "Location" };
         string[] row1 = { names, operators, operators2, machineid, locations };
 
-        // string[] row2 = { "Jane Smith", "25", "Canada" };
 
-        // Combine the data into CSV format
-        csvContent = string.Join(",", headers) + "\n";
-        csvContent += string.Join(",", row1) + "\n";
+        int[] columnWidths = new int[headers.Length];
+        for (int i = 0; i < headers.Length; i++)
+        {
+            int maxFieldWidth = Math.Max(headers[i].Length, row1[i].Length);
+            columnWidths[i] = maxFieldWidth;
+        }
+
+        // Combine the data into CSV format with aligned columns
+        csvContent = "";
+        for (int i = 0; i < headers.Length; i++)
+        {
+            csvContent += headers[i].PadRight(columnWidths[i]);
+            if (i < headers.Length - 1)
+            {
+                csvContent += " | ";
+            }
+        }
+        csvContent += "\n";
+
+        for (int i = 0; i < row1.Length; i++)
+        {
+            csvContent += row1[i].PadRight(columnWidths[i]);
+            if (i < row1.Length - 1)
+            {
+                csvContent += " | ";
+            }
+        }
+        csvContent += "\n";
         csvContent += dateTime + "\n";
+        /*// Combine the data into CSV format
+        csvContent = string.Join(" | ", headers) + "\n";
+        csvContent += string.Join(" | ", row1) + "\n";
+        csvContent += dateTime + "\n";*/
 
-       // filePath = Path.Combine(Application.persistentDataPath, fileName);
+
 
         try
         {
-            //File.WriteAllText(filePath, csvContent);
-            //Debug.Log("CSV file saved to internal storage: " + filePath);
-
-           // Application.OpenURL(filePath);
+           
             //////////-----------------------------Testing For write and get--------------------
 
             string filePaths = Path.Combine(Application.temporaryCachePath, fileName);
