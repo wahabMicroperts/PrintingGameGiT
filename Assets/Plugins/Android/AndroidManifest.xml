@@ -17,7 +17,7 @@
 	xmlns:tools="http://schemas.android.com/tools"
 
 	<application>
-		<activity android:name="com.codemaster.android.LocationServiceControl">
+		<activity 
 			      android:name="com.unity3d.player.UnityPlayerActivity"
                   android:theme="@style/UnityThemeSelector">
 			      

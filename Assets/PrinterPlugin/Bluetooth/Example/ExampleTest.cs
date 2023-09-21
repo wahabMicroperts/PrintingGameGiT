@@ -47,6 +47,7 @@ public class ExampleTest : ExampleBridge
             PrintText(inputText.text);
            // PrintText(PrintingCSV.csvContent);
             PrinterConnector.AddFeed();
+            PrinterConnector.AddFeed();
         }
     }
     public override void PrintText(string text)
@@ -71,12 +72,16 @@ public class ExampleTest : ExampleBridge
             PrinterConnector.AddFeed(FeedType.LONG);
         }
     }
+   
     public override void PrintImage()
     {
         if (PrinterPrepare)
         {
-            byte[] imageData = textureNew.EncodeToPNG();
-            PrintImage(imageData);
+            renderTextureText.text = PrintingCSV.csvContent;
+            Texture2D text =  (Texture2D)rawImage.texture;
+            byte[] imageData1 = text.EncodeToPNG();
+            //  byte[] imageData = textureNew.EncodeToPNG();
+            PrintImage(imageData1);
         }
     }
     public override void PrintImage(byte[] imageData)

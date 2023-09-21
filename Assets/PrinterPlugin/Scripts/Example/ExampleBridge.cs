@@ -2,11 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using TinyG.PrintBlueToothPlugin;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ExampleBridge : MonoBehaviour
 {
+    public TMP_Text renderTextureText;
+    public RawImage rawImage;
     public printing PrintingCSV;
     public Text textTitle;
     public Texture2D textureNew;
