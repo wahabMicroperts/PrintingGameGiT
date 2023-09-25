@@ -77,18 +77,20 @@ public class ExampleTest : ExampleBridge
     {
         if (PrinterPrepare)
         {
-            renderTextureText.text = PrintingCSV.csvContent;
-            // Texture2D text =  (Texture2D)rawImage.texture;
+            // renderTextureText.text = PrintingCSV.csvContent;
+            renderTextureText.text = PrintingCSV.headerContent;
+            rendersimpleText.text = PrintingCSV.row1Content;  
+        
             Texture rawImageTexture = rawImage.texture;
 
-            // Step 2: Convert the Texture to a Texture2D
+           
             Texture2D texture2D = new Texture2D(rawImageTexture.width, rawImageTexture.height);
             RenderTexture.active = (RenderTexture)rawImageTexture; // Set the target RenderTexture
 
             texture2D.ReadPixels(new Rect(0, 0, rawImageTexture.width, rawImageTexture.height), 0, 0);
             texture2D.Apply();
 
-            //NativeGallery.Permission permission = NativeGallery.SaveImageToGallery(texture2D, "GalleryTest", "Image.png", (success, path) => Debug.Log("Media save result: " + success + " " + path));
+           // NativeGallery.Permission permission = NativeGallery.SaveImageToGallery(texture2D, "GalleryTest", "Image.png", (success, path) => Debug.Log("Media save result: " + success + " " + path));
             byte[] imageData1 = texture2D.EncodeToPNG();
             //  byte[] imageData = textureNew.EncodeToPNG();
             PrintImage(imageData1);
@@ -99,7 +101,7 @@ public class ExampleTest : ExampleBridge
         if (PrinterPrepare)
         {
             base.PrintImage(imageData);
-            PrinterConnector.SetAlign(AlignType.LEFT);
+            PrinterConnector.SetAlign(AlignType.CENTER);
             PrinterConnector.PrintImage(imageData);
             PrinterConnector.AddFeed(FeedType.LONG);
             PrinterConnector.AddFeed(FeedType.LONG);

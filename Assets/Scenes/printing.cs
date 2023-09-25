@@ -18,8 +18,10 @@ public class printing : MonoBehaviour
     public TMP_InputField MachineId;
     public TMP_InputField Operater2;
     public TMP_InputField Location;
+    public TMP_InputField Credits;    
 
-
+    [HideInInspector] public string headerContent = "";
+    [HideInInspector] public  string row1Content = "";
     [HideInInspector] public string csvContent;
     [HideInInspector] public string filePath;
 
@@ -41,52 +43,55 @@ public class printing : MonoBehaviour
         string operators2 = Operater2.text;
         string machineid = MachineId.text;
         string locations = Location.text;
+        string credits  = Credits.text; 
 
         DateTime currentDateTime = DateTime.Now;
         Debug.Log("Current Date and Time: " + currentDateTime);
         string dateTime = currentDateTime.ToString();
         // Sample data
         string[] time = { dateTime };
-        string[] headers = { "Name", "Operator", "Operator2", "MachineId", "Location" };
+
+
+        string[] headers = { "Name:", "Operator1:", "Operator2:", "MachineId:", "Location:","Credits" };
+        string[] row1 = { names, operators, operators2, machineid, locations, credits };
+
+        
+
+        for (int i = 0; i < headers.Length || i < row1.Length; i++)
+        {
+            string header = i < headers.Length ? headers[i] : "";
+            string value = i < row1.Length ? row1[i] : "";
+
+            headerContent += header + "\n"; // Add each header to a new line
+            row1Content += value + "\n";     // Add each row1 item to a new line
+        }
+
+        /*string[] headers = { "Name:", "Operator1:", "Operator2:", "MachineId:", "Location:" };
         string[] row1 = { names, operators, operators2, machineid, locations };
 
+        int maxHeaderWidth = headers.Max(header => header.Length);
+        int maxRow1Width = row1.Max(row => row.Length);
 
-        int[] columnWidths = new int[headers.Length];
-        for (int i = 0; i < headers.Length; i++)
-        {
-            int maxFieldWidth = Math.Max(headers[i].Length, row1[i].Length);
-            columnWidths[i] = maxFieldWidth;
-        }
-
-        // Combine the data into CSV format with aligned columns
         csvContent = "";
-        for (int i = 0; i < headers.Length; i++)
+        for (int i = 0; i < headers.Length || i < row1.Length; i++)
         {
-            csvContent += headers[i].PadRight(columnWidths[i]);
-            if (i < headers.Length - 1)
-            {
-                csvContent += " | ";
-            }
-        }
-        csvContent += "\n";
+            string header = i < headers.Length ? headers[i].PadRight(maxHeaderWidth) : string.Empty.PadRight(maxHeaderWidth);
+            string value = i < row1.Length ? row1[i].PadRight(maxRow1Width) : string.Empty.PadRight(maxRow1Width); // Change PadRight to PadLeft here
 
-        for (int i = 0; i < row1.Length; i++)
-        {
-            csvContent += row1[i].PadRight(columnWidths[i]);
-            if (i < row1.Length - 1)
+            csvContent += header + "  " + value;
+
+            if (i < headers.Length - 1 || i < row1.Length - 1)
             {
-                csvContent += " | ";
+                csvContent += "\n"; // Move to the next line for the next set of columns
             }
         }
-        csvContent += "\n";
-        csvContent += dateTime + "\n";
+        csvContent += "\n" + "\n";*/
+       // headerContent += "\n";
+        headerContent += dateTime + "\n";
         /*// Combine the data into CSV format
         csvContent = string.Join(" | ", headers) + "\n";
         csvContent += string.Join(" | ", row1) + "\n";
         csvContent += dateTime + "\n";*/
-
-
-
         try
         {
            

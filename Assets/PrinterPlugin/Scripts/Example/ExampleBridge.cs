@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class ExampleBridge : MonoBehaviour
 {
     public TMP_Text renderTextureText;
+    public TMP_Text rendersimpleText;
     public RawImage rawImage;
     public printing PrintingCSV;
     public Text textTitle;
